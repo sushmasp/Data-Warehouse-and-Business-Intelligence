@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_278OQcFOEeaFWKIt-5w3Xg" name="DimSalesTerritory_NA" dataPackage="_2781UMFOEeaFWKIt-5w3Xg" Server="Localhost 127.0.0.1" FilePath="F:/INFO7290-DWBI/Final Project/DimSalesTerritory.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_2781UMFOEeaFWKIt-5w3Xg" name="default" dataManager="_278OQcFOEeaFWKIt-5w3Xg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_2781UcFOEeaFWKIt-5w3Xg" id="_wslwEMFOEeaFWKIt-5w3Xg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781UsFOEeaFWKIt-5w3Xg" label="SalesTerritoryKey" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781U8FOEeaFWKIt-5w3Xg" label="GeographyKey" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781VMFOEeaFWKIt-5w3Xg" label="SalesTerritoryLabel" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781VcFOEeaFWKIt-5w3Xg" label="SalesTerritoryName" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781VsFOEeaFWKIt-5w3Xg" label="SalesTerritoryRegion" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781V8FOEeaFWKIt-5w3Xg" label="SalesTerritoryCountry" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781WMFOEeaFWKIt-5w3Xg" label="SalesTerritoryGroup" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781WcFOEeaFWKIt-5w3Xg" label="SalesTerritoryLevel" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781WsFOEeaFWKIt-5w3Xg" label="SalesTerritoryManager" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781W8FOEeaFWKIt-5w3Xg" label="StartDate" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781XMFOEeaFWKIt-5w3Xg" label="EndDate" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781XcFOEeaFWKIt-5w3Xg" label="Status" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781XsFOEeaFWKIt-5w3Xg" label="ETLLoadID" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781X8FOEeaFWKIt-5w3Xg" label="LoadDate" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2781YMFOEeaFWKIt-5w3Xg" label="UpdateDate" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_kmb2kcFOEeaFWKIt-5w3Xg" name="FactExchangeRate_excel" dataPackage="_kmb2ksFOEeaFWKIt-5w3Xg" Server="Localhost 127.0.0.1" FilePath="F:/INFO7290-DWBI/Final Project/FactExchangeRate.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="FactExchangeRate" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="FactExchangeRate:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kmb2ksFOEeaFWKIt-5w3Xg" name="default" dataManager="_kmb2kcFOEeaFWKIt-5w3Xg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kmb2k8FOEeaFWKIt-5w3Xg" id="_Wtw2kMFOEeaFWKIt-5w3Xg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kmb2lMFOEeaFWKIt-5w3Xg" label="CurrencyDateSK" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kmb2lcFOEeaFWKIt-5w3Xg" label="CurrencyDateKey" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kmb2lsFOEeaFWKIt-5w3Xg" label="CurrencyKey" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kmb2l8FOEeaFWKIt-5w3Xg" label="CurrencyName" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kmb2mMFOEeaFWKIt-5w3Xg" label="EndOfDayRate" length="6" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_v_GX8cFOEeaFWKIt-5w3Xg" name="DimCurrency" dataPackage="_v_GX8sFOEeaFWKIt-5w3Xg" Server="Localhost 127.0.0.1" FilePath="F:/INFO7290-DWBI/Final Project/DimCurrency.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_v_GX8sFOEeaFWKIt-5w3Xg" name="default" dataManager="_v_GX8cFOEeaFWKIt-5w3Xg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_v_GX88FOEeaFWKIt-5w3Xg" id="_nDVW0MFOEeaFWKIt-5w3Xg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v_GX9MFOEeaFWKIt-5w3Xg" label="CurrencyKey" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v_GX9cFOEeaFWKIt-5w3Xg" label="CurrencyLabel" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v_GX9sFOEeaFWKIt-5w3Xg" label="CurrencyName" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v_GX98FOEeaFWKIt-5w3Xg" label="CurrencyDescription" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

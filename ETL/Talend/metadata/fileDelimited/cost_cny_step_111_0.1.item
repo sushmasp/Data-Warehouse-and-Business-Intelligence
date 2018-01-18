@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_tcVKUMF8EeabaMVZsLD17Q" name="cost_cny_step_111" dataPackage="_tcVKUcF8EeabaMVZsLD17Q" Server="Localhost 127.0.0.1" FilePath="F:/INFO7290-DWBI/Final Project/Contoso_SOR/cost_cny_step_1_of_4.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_tcVKUcF8EeabaMVZsLD17Q" name="default" dataManager="_tcVKUMF8EeabaMVZsLD17Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_tcVKUsF8EeabaMVZsLD17Q" id="_gTY-IMF8EeabaMVZsLD17Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tcVKU8F8EeabaMVZsLD17Q" label="_Product_ID" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tcVKVMF8EeabaMVZsLD17Q" label="CurrencyKey" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tcVKVcF8EeabaMVZsLD17Q" label="UnitCost" length="8" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tcVKVsF8EeabaMVZsLD17Q" label="SCD_EffectiveDate" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
